@@ -1,6 +1,11 @@
 import MyList from "./components/MyList.jsx";
 import UserList from "./components/UserList.jsx";
-
+import Car from "./components/Expression.jsx"
+import MyCar from "./components/objectProperties.jsx"
+import AlertButton from "./components/camelcaseEvent.jsx";
+import Style from "./components/styleAttribute.jsx";
+import Fruits from "./components/conditional.jsx";
+import Garage from "./components/Props.jsx";
 function App() {
   return (
     <div>
@@ -14,6 +19,12 @@ function App() {
       </table>
       <MyList />
       <UserList />
+      <Car />
+      <MyCar />
+      <AlertButton />
+      <Style />
+      <Fruits />
+      <Garage />
     </div>
   );
 }
