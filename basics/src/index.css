@@ -1,8 +1,10 @@
 body {
   display: flex;
   place-items:center;
-  flex-direction: column;
-  min-width: 320px;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 500px;
   min-height: 100vh;
 }
 #root {
@@ -15,4 +17,8 @@ table, th, td {
   border: 1px solid;
   text-align: center;
   
+}
+#CamelCase{
+  background-color: rgb(53, 53, 94);
+
 }
