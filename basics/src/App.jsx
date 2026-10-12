@@ -10,6 +10,7 @@ import CarInfo from "./components/Objectprops.jsx";
 import CarArray from "./components/ArrayProps.jsx";
 import CarCard from "./components/destructringProps.jsx";
 import CarHis from "./components/DefaultDestructringProp.jsx";
+import Parent from "./components/PropsChilderen.jsx";
 const carInfo = {
   name: "Ford",
   model: "Mustang",
@@ -49,6 +50,7 @@ function App() {
       <CarArray carinfo={carInfo1} />
       <CarCard {...carData}/>
       < CarHis {...carHis}/>
+      <Parent />
     </div>
   );
 }
