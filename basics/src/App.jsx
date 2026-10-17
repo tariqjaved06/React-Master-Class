@@ -11,6 +11,11 @@ import CarArray from "./components/ArrayProps.jsx";
 import CarCard from "./components/destructringProps.jsx";
 import CarHis from "./components/DefaultDestructringProp.jsx";
 import Parent from "./components/PropsChilderen.jsx";
+import Football from "./components/event.jsx";
+import Goal from "./components/ConditionalStatement.jsx";
+import Brands from "./components/logicalOperator.jsx";
+import GoalFunc from "./components/ternaryOperator.jsx";
+import MyCarsMap from "./components/ArrayMap.jsx";
 const carInfo = {
   name: "Ford",
   model: "Mustang",
@@ -51,6 +56,11 @@ function App() {
       <CarCard {...carData}/>
       < CarHis {...carHis}/>
       <Parent />
+      <Football />
+      <Goal isGoal = {true}/>
+      <Brands brand="Ford" />
+      <GoalFunc isGoal = {true}/>
+      <MyCarsMap/>
     </div>
   );
 }
